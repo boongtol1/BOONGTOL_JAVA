@@ -1,4 +1,4 @@
-package BOONGTOLJAVA ; // 패키지 이름은 막 지어도 오류는 안난다. BUT, 관례를 지키는것이 좋다!
+package BOONGTOLJAVA.ee ;// 패키지 이름은 막 지어도 오류는 안난다. BUT, 관례를 지키는것이 좋다!
 
 public class Calculator {
     public static void hello(String s) {
