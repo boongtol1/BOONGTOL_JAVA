@@ -8,7 +8,7 @@ public class b_2_9_StringConcatExample {
 
 		//결합 연산
 		String result2 = 10 + 2 + "8";
-		System.out.println("result2: " + result2);
+		System.out.println("result2: " + result2);	// 기본은 왼쪽에서 부터 계산되는 규칙이 있다!
 
 		String result3 = 10 + "2" + 8;
 		System.out.println("result3: " + result3);
