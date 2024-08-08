@@ -1,17 +1,9 @@
-package BOONGTOLJAVA;
-
 public class test2 {
     public static void main(String[] args) {
-        // 숫자 변환
-        int number = Integer.parseInt(args[0]);
-        System.out.println("Number: " + number);
-
-        // 날짜 변환
-        String date = args[1];
-        System.out.println("Date: " + date);
-
-        // 파일 경로
-        String filePath = args[2];
-        System.out.println("File Path: " + filePath);
+        System.out.println("인수 출력:");
+        // 배열의 각 요소를 순회하여 출력
+        for (int i = 0; i < args.length; i++) {
+            System.out.println("인수 " + i + ": " + args[i]);
+        }
     }
 }
