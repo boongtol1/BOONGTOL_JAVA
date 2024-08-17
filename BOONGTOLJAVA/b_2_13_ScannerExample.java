@@ -2,8 +2,11 @@ package BOONGTOLJAVA;
 // 자바에서 생성자(Constructor)는 클래스의 객체가 생성될 때 호출되는 특수한 메서드입니다.
 import java.util.Scanner; // 변수 선언에서 변수 이름 앞에 오는 것은 데이터 타입을 지정하며, 이 데이터 타입이 클래스일 수도 있고, 기본 데이터 타입일 수도 있습니다.(클래스,인터페이스,배열 = 참조타입, 기본 데이터 타입(8개) )
 // Scanner 타입의 변수는 Scanner 객체를 참조하는 변수입니다.
-// Scanner 클래스의 인스턴스를 생성하고, 이를 변수에 할당하여 다양한 메서드를 호출할 수 있습니다.
+// Scanner 클래스의 인스턴스를 생성하고, 이를 변수에 할당하여 다양한 메서드를 호출할 수 있습니다.('의' 논리)
 // System.in을 입력 소스로 사용하는 Scanner 객체를 생성합니다.
+// System.in은 InputStream의 객체!
+// Scanner 클래스에는 InputStream 객체를 처리하기 위한 생성자(객체가 만들어진 순간에 자동으로 호출되는 메서드)가 존재합니다.
+// 이 생성자를 통해 InputStream 객체를 전달하여 Scanner 객체를 생성할 수 있습니다.
 public class b_2_13_ScannerExample {
     public static void main(String[] args) throws Exception { // 자바에서 이미 정의된 예외 클래스(Exception, RuntimeException, IOException 등)를 사용하는 경우에는 이미 상속 관계가 형성되어 있기 때문에 상속을 신경 쓸 필요가 없습니다.
 		Scanner scanner = new Scanner(System.in); // 그러나, 특정한 상황에 맞는 사용자 정의 예외를 만들려면, Exception 또는 그 하위 클래스들을 상속받아 새로운 예외 클래스를 직접 정의해야 합니다.
