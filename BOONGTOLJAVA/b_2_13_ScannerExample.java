@@ -3,7 +3,7 @@ package BOONGTOLJAVA;
 import java.util.Scanner; // 변수 선언에서 변수 이름 앞에 오는 것은 데이터 타입을 지정하며, 이 데이터 타입이 클래스일 수도 있고, 기본 데이터 타입일 수도 있습니다.(클래스,인터페이스,배열 = 참조타입, 기본 데이터 타입(8개) )
 // Scanner 타입의 변수는 Scanner 객체를 참조하는 변수입니다.
 // Scanner 클래스의 인스턴스를 생성하고, 이를 변수에 할당하여 다양한 메서드를 호출할 수 있습니다.('의' 논리)
-// System.in을 입력 소스로 사용하는 Scanner 객체를 생성합니다!--> (역으로) Scanner 의 객체는 System.in을 입력으로 받는다!
+// System.in을 입력 소스로 사용하는 Scanner 객체를 생성합니다!--> Scanner 의 객체는 입력받고자 할때, System.in을 입력으로 받는다!
 // System.in은 InputStream의 객체!
 // Scanner 클래스는 InputStream이라는 클래스의 객체를 처리!(하기 위한 생성자(객체가 만들어진 순간에 자동으로 호출되는 메서드)가 존재합니다.)--> 처리하는 과정은 나중에 공부한 후 다시보기!(지금은 잘 모르니까!) 
 // (이 생성자를 통해) InputStream 객체를 전달하여 Scanner 객체를 생성할 수 있습니다.
@@ -18,7 +18,7 @@ public class b_2_13_ScannerExample {	// 12행? 오른쪽에서 왼쪽으로 해�
 // 이러한 문제는 일반적으로 개발자가 코드로 처리할 수 없는 상태를 의미하며, 주로 JVM(Java Virtual Machine)에서 발생합니다.
 // Error 클래스는 Throwable 클래스의 하위 클래스이며, Exception 클래스와는 구분됩니다.
 		System.out.print("y 값 입력: ");
-		String strY = scanner.nextLine();	// scanner.nextLine()은 Java에서 Scanner 클래스의 메서드로, 입력받는 역할을 한다. 이때 6행에 의해 입력받는 내용은 System.in 이다! // 또 파이썬과 마찬가지로 입력받은 것은 기본적으로 문자열 취급된다!
+		String strY = scanner.nextLine();	// scanner.nextLine()은 Java에서 Scanner 클래스의 메서드로, 입력받고자 하는 표시 역할을 한다. 이때 6행에 의해 입력받는 내용은 System.in 이다! // 또 파이썬과 마찬가지로 입력받은 것은 기본적으로 문자열 취급된다!
 		int y = Integer.parseInt(strY);		
 		int result = x + y;
 		System.out.println("x + y: " + result);
