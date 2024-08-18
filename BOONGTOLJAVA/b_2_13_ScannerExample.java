@@ -19,7 +19,8 @@ public class b_2_13_ScannerExample {	// 12행? 오른쪽에서 왼쪽으로 해�
 // Error 클래스는 Throwable 클래스의 하위 클래스이며, Exception 클래스와는 구분됩니다.
 		System.out.print("y 값 입력: ");
 		String strY = scanner.nextLine();	// scanner.nextLine()은 Java에서 Scanner 클래스의 메서드로, 입력받고자 하는 표시 역할을 한다. 이때 6행에 의해 입력받는 내용은 System.in 이다! // 또 파이썬과 마찬가지로 입력받은 것은 기본적으로 문자열 취급된다!
-		int y = Integer.parseInt(strY);		
+		int y = Integer.parseInt(strY);		// scanner.nextLine() 는 엔터로 발생하는 개행문자만 제거하고 출력해준다. 예를 들어, 사용자가 "Hello, World!"라는 문장을 입력하고 엔터 키를 누르면, 실제로 입력 스트림에는 "Hello, World!\n"이라는 문자열이 들어갑니다.
+											// scanner.nextLine() 메서드는 이 문자열을 읽을 때 엔터로 인해 생성된 개행 문자 \n 이전의 "Hello, World!"를 반환하고, 엔터로 인해 생성된 개행 문자는 제거합니다.
 		int result = x + y;
 		System.out.println("x + y: " + result);
 		System.out.println();
