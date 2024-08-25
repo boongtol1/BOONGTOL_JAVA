@@ -24,8 +24,7 @@ public class b_2_13_ScannerExample {	// 12행? 오른쪽에서 왼쪽으로 해�
 		int result = x + y;					// scanner.nextLine()는 한 줄을 입력받아서 문자열화해서 반환해야 하는 상황! 이때의 입력?--> 6행에 의해 System.in 이 된다!
 		System.out.println("x + y: " + result);	// scanner.nextLine()?-> 해석할때, scanner 가 주어가 된다고 보면 오케이!!! + 6행논리?--> 온전한 해석 가능!!!
 											// 일단 주어 빼고 해석한 후 나중에 주어를 넣어서 해석하는 스킬도 존재! --> 위에서는?--> nextline() 의 기능해석 먼저 & 나중에 그 기능해석의 주체 적용!!
-		System.out.println();
-
+		System.out.println();			// 사고과정?--> 1. 입력받고 싶음  2. nextline 메서드 생각 가능! 3. 말 그대로 nextline 은 '메서드' 이다! 따라서 nextline 을 사용하기 위해서는 클래스의 객체 생성해서 '의'논리를 써야 하는게 유일한 방법이다!
 		while(true) {
 			System.out.print("입력 문자열: ");	
 			String data = scanner.nextLine();
