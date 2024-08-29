@@ -6,7 +6,7 @@ public class b_3_7_LogicalOperatorExample {
 		//int charCode = 'a';
 		//int charCode = '5';
 
-		if( (65<=charCode) & (charCode<=90) ) { // 여기서 단일 앰퍼샌드(&)가 사용됩니다. 이 연산자는 양쪽 조건을 모두 평가합니다.
+		if( (65<=charCode) & (charCode<=90) ) { // 여기서 단일 앰퍼샌드(&)가 사용됩니다. 이 연산자는 양쪽 조건을 모두 평가합니다.(and 인데 양쪽 모두 살피는 것!)
 			System.out.println("대문자이군요.");
 		}
 			
@@ -23,7 +23,7 @@ public class b_3_7_LogicalOperatorExample {
 		int value = 6;
 		//int value = 7;
 			
-		if( (value%2==0) | (value%3==0) ) { // 단일 논리 OR 연산자(|)를 사용하여 둘 중 하나라도 참이면 "2 또는 3의 배수이군요."가 출력됩니다. |는 양쪽 조건을 모두 평가합니다.
+		if( (value%2==0) | (value%3==0) ) { // 단일 논리 OR 연산자(|)를 사용하여 둘 중 하나라도 참이면 "2 또는 3의 배수이군요."가 출력됩니다. |는 양쪽 조건을 모두 평가합니다.(or 인데 양쪽 모두 살피는 것!)
 			System.out.println("2 또는 3의 배수이군요.");
 		}
 
