@@ -20,3 +20,4 @@ public class b_3_2_ArithmeticOperatorExample {
 		System.out.println("result4: " + result4);
 	}
 }
+// byte, short, char 타입의 변수가 연산에 사용될 때, 이들은 자동으로 int로 승격(promote)됩니다.
