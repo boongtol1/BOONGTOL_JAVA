@@ -19,3 +19,5 @@ public class b_4_2_IfElseIfElseExample {
 		}
 	}
 }
+// score >= 80은 score가 80 이상인 모든 경우를 포괄합니다.
+// 하지만 그보다 높은 score >= 90 조건이 먼저 있기 때문에, 실제로 score >= 80에 도달할 때는 score가 90 미만이면서 80 이상인 경우만 남습니다.
