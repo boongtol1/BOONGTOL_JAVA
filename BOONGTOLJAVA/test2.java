@@ -1,3 +1,4 @@
+package BOONGTOLJAVA;
 import java.math.BigDecimal;
 
 public class test2 {
