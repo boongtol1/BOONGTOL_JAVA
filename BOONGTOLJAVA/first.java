@@ -8,6 +8,7 @@ public class first {
 				// Java에서 main 메서드의 매개변수인 String[] boong에서 대괄호 []는 해당 매개변수가 문자열을 원소로 갖는 배열임을 나타냅니다.
                         // 터미널(커맨드라인)에서 java first.java arg1 arg2 arg3 와 같이 하면 boong 은 ["arg1","arg2","arg3"]와 같은 문자열을 원소로 갖는 배열이 된다!!!
                         // 각 인수(요소)를 String 화 하고 []로 묶어서 boong 에 저장해라!
+                        // boong = new String[]{"arg1", "arg2", "arg3"}; 이라는 과정이 숨겨져 있는것!
                         // 프로그램을 실행할 때 터미널에서의 값을 제공하지 않으면, boong은 빈 배열이 됩니다.
                         // 자바에서 모든 커맨드라인 인수는 문자열로 처리됩니다. 이 때문에 String[] 배열이 매개변수로 사용됩니다. 
                         // 만약 String[] 이 아닌 String 이라면 하나의 인수만 받을 수 있다. 따라서 '배열화' 해야한다!
