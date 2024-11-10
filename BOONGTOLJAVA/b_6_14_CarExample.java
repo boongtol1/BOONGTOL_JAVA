@@ -2,8 +2,11 @@ package BOONGTOLJAVA;
 
 public class b_6_14_CarExample {
     public static void main(String[] args) {
+		
 		//객체 생성
 		b_6_14_Car myCar = new b_6_14_Car();
+
+		System.out.println(myCar.boongtol);
 
 		//잘못된 속도 변경
 		myCar.setSpeed(-50);

@@ -3,13 +3,13 @@ class School {
     static String schoolName = "Sunshine High School";
 
     // 인스턴스 필드: 각 학생마다 고유한 이름
-    String studentName; // studentName의 범위가 더 넓기 때문에 객체에 속하지 않아도 된다!! (아직은 studentName 필드가 어떤 역할로 쓰일지 모름!)
+    String studentName; 
 
     // 생성자: 학생의 이름을 받아서 초기화
     School(String studentName) {
-        this.studentName = studentName;  // 10행 해석?--> 현재 객체의 studentName 필드를 초기화해라!!(studentName 필드는 인스턴스 필드니까 가능한 것!)
-    }   // 10행을 쓴 순간, 6행의 studentName 필드는 그 범위가 초기화 변수의 필드로 줄어든다!!
-    // 10행에서 this.studentName = studentName;을 사용함으로써, 해당 인스턴스의 studentName 필드는 그 객체에 속하는 고유한 필드로 역할을 영원히 수행하게 됩니다.
+        this.studentName = studentName;  // 
+    }   
+    
 
     // 학생의 정보 출력 메서드
     void printStudentInfo() {
