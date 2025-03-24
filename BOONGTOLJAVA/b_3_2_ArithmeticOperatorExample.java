@@ -21,3 +21,4 @@ public class b_3_2_ArithmeticOperatorExample {
 	}
 }
 // byte, short, char 타입의 변수가 연산에 사용될 때, 이들은 자동으로 int로 승격(promote)됩니다.
+// 맞아! 자바에서는 두 개의 피연산자를 연산할 때, 둘 중 더 범위가 넓은 쪽(더 큰 데이터 타입)으로 자동 변환이 일어나.
