@@ -3,7 +3,7 @@ package DMU_TEST_TOJAVA;
 public class B_2025_03_12_practice_3 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		try {
 			int num1 = 100 , num2=0;
 			System.out.println(num1/num2);

@@ -3,7 +3,7 @@ package DMU_TEST_TOJAVA;
 public class B_2025_03_19_Exam09 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		B_2025_03_19_Automobile auto1=new B_2025_03_19_Automobile();
 		System.out.println(auto1.getColor()+", "+auto1.getSpeed()+", "+auto1.getSeatNum());
 		
