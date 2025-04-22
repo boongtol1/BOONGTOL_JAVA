@@ -37,7 +37,9 @@ public class gik_2_3 extends AppCompatActivity {
 
             public void onClick(View v) {
                 Intent mIntent = new Intent(Intent.ACTION_VIEW, Uri
-                        .parse("http://m.nate.com"));
+                        .parse("http://m.nate.com"));       // Intent.ACTION_VIEW--> "무언가(URI 등)를 보고 싶다"**는 의도를 안드로이드 시스템에 전달하는 상수야.
+
+
                 startActivity(mIntent);
 
             }
@@ -72,3 +74,5 @@ public class gik_2_3 extends AppCompatActivity {
         });
     }
 }
+
+// view v 라는 매개변수의 역할의 이해는 자바 이벤트 처리 후에 복습한다. 지금은 무리! 지금은 큰그림만 이해하고 넘어간다!

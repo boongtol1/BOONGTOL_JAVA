@@ -13,7 +13,7 @@
         android:theme = "@style/Theme.AppCompat.Light.DarkActionBar"
         tools:targetApi="31">
         <activity
-            android:name=".gik_2_3"
+            android:name=".gik_5_2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

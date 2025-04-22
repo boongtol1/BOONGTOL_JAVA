@@ -8,7 +8,6 @@ public class b_8_4_FileWriterEx {
     public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in); 
 		FileWriter fout = null;
-		int c;
 		try {
 			fout = new FileWriter("/Users/boongtol/Desktop/test.txt"); // 파일과 연결된 출력 문자 스트림 생성
 			while(true) {
@@ -25,3 +24,8 @@ public class b_8_4_FileWriterEx {
 		scanner.close();
 	}
 }
+
+// FileWriter는 문자(글자)를 파일에 쓰는 도구예요.(문자든 문자열이든 모두 저장 가능!)
+
+// 메모장은 \r\n 조합을 **"줄바꿈"**으로 해석하기 때문!--> 이것때문에 넘 스트레스 받지 않기!
+

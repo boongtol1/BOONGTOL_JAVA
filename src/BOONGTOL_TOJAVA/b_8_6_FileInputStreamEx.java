@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class b_8_6_FileInputStreamEx {
     public static void main(String[] args) {
-		byte b[] = new byte [6]; // 비어 있는 byte 배열
+		byte b[] = new byte [7]; // 비어 있는 byte 배열 // new byte[7] 는 [0, 0, 0, 0, 0, 0, 0] 으로 구성된 배열을 만듭니다.
 		try {
 			// "c:\\Temp\\test.out" 파일을 읽어 배열 b에 저장
 			FileInputStream fin = new FileInputStream("/Users/boongtol/Desktop/test.txt");
