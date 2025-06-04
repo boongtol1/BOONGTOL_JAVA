@@ -1,3 +1,4 @@
+package BOONGTOLJAVA.Test;
 class School {
     // static 필드: 모든 학생이 같은 학교 이름을 공유
     String schoolName = "Sunshine High School";

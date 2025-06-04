@@ -1,3 +1,4 @@
+package BOONGTOLJAVA.Test;
 public class test5 {
     private static String staticVar = "Static Variable"; // 클래스 변수
     private String instanceVar = "Instance Variable";    // 인스턴스 변수

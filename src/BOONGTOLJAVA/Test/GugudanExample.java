@@ -1,3 +1,4 @@
+package BOONGTOLJAVA.Test;
 // 5. 구구단 중 n 단을 출력하는 메소드를 생성하고 사용자가 입력한 숫자의 구구단을 출력하는 코드를 작성하시오
 
 import java.util.Scanner;

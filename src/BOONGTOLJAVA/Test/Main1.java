@@ -1,3 +1,4 @@
+package BOONGTOLJAVA.Test;
 class Student {
     // 인스턴스 필드: 각 학생마다 다른 이름을 가짐
     String studentName;

@@ -1,3 +1,4 @@
+package BOONGTOLJAVA.Test;
 public class test4 {
     private final String name; // 객체에 속하는 final 필드
     private final int id;
