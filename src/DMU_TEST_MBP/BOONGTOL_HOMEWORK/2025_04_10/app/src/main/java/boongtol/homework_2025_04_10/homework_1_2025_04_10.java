@@ -1,4 +1,4 @@
-package boongtol.homework_2025_04_10;
+package main.java.boongtol.homework_2025_04_10;
 
 
 import android.os.Bundle;
@@ -16,7 +16,7 @@ public class homework_1_2025_04_10 extends AppCompatActivity {
     private CheckBox checkAndroid, checkIOS, checkWeb, checkAI, checkIoT, checkXR;
     private boolean isEditing = false;
     private String name = "이승훈";
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
