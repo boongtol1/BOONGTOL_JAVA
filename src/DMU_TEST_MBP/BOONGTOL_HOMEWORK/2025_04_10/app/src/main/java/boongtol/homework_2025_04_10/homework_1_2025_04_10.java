@@ -1,4 +1,4 @@
-package main.java.boongtol.homework_2025_04_10;
+package boongtol.homework_2025_04_10;
 
 
 import android.os.Bundle;
